@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pxml:PXMLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pxml="http://www.hundsun.com/ares/studio/pkgide/pxml/1.0">
+  <basicmodel resname="pkg_count2corebank_0168_resp" note="一键锁卡解卡" createdate="2017-8-30-10:29:39" rescreator="王齐源" lastmodify="2017-8-30-10:29:39" lastmodifer="王齐源" subclass="120号文件">
+    <versioncontrol reversion="$Rev$ " date="$Date$ " author="$Author$  " url="$URL$ "/>
+  </basicmodel>
+  <root nodename="root">
+    <convfunc/>
+    <dctname/>
+                <children xsi:type="pxml:SubPacket" inodexp="0">
+      <pxmlsubpacket referdata="subpkg_count2corebank_pub_resp"/>
+    </children>
+      <children xsi:type="pxml:XMLNode" nodename="PRI">
+      <convfunc/>
+      <dctname/>
+        <children xsi:type="pxml:XMLNode" nodename="ACUR" note="重复次数" inodexp="[/cfcs]">
+        <convfunc/>
+        <dctname/>
+      </children>
+      <children xsi:type="pxml:XMLNode" nodename="TRDT" note="交易日期" inodexp="[/jyrq]">
+        <convfunc/>
+        <dctname/>
+      </children>
+      <children xsi:type="pxml:XMLNode" nodename="TRTM" note="交易时间" inodexp="[/jysj]">
+        <convfunc/>
+        <dctname/>
+      </children>
+      <children xsi:type="pxml:XMLNode" nodename="TLSQ" note="柜员流水号" inodexp="[/jylsh]">
+        <convfunc/>
+        <dctname/>
+      </children>
+    
+                </children>
+        </root>
+</pxml:PXMLModel>

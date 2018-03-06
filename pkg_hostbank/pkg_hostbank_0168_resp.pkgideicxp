@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<picxp:PICXPModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:picxp="http://www.hundsun.com/ares/studio/pkgide/picxp/v1.0">
+  <basicmodel resname="pkg_hostbank_0168_resp" note="一键锁卡解卡" createdate="2017-8-30-10:29:39" rescreator="王齐源" lastmodify="2017-8-30-10:29:39" lastmodifer="王齐源" subclass="120号文件">
+    <versioncontrol reversion="$Rev$ " date="$Date$ " author="$Author$  " url="$URL$ "/>
+  </basicmodel>
+         <fields xsi:type="picxp:SubPacket">
+    <icxppacket referdata="pkg_hostbank_pub_resp"/>
+  </fields>
+  
+ </picxp:PICXPModel>

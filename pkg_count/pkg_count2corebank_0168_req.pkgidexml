@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pxml:PXMLModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pxml="http://www.hundsun.com/ares/studio/pkgide/pxml/1.0">
+  <basicmodel resname="pkg_count2corebank_0168_req" note="一键锁卡解卡" createdate="2017-8-30-10:29:39" rescreator="王齐源" lastmodify="2017-8-30-10:29:39" lastmodifer="王齐源" subclass="120号文件">
+    <versioncontrol reversion="$Rev$ " date="$Date$ " author="$Author$  " url="$URL$ "/>
+  </basicmodel>
+  <root nodename="root">
+    <convfunc/>
+    <dctname/>
+                <children xsi:type="pxml:XMLNode" nodename="kh" note="卡号" inodexp="[/EFS/PRI/AMCR]">
+      <convfunc/>
+      <dctname/>
+    </children>
+                <children xsi:type="pxml:XMLNode" nodename="jskbz" note="解锁卡标志" inodexp="[/EFS/PRI/ATCY]">
+      <convfunc/>
+      <dctname/>
+    </children>
+        </root>
+</pxml:PXMLModel>
